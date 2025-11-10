@@ -4,7 +4,7 @@ import "./globals.css";
 
 
 export const metadata: Metadata = {
-  title: "CRUD APP  ",
+  title: "CRUD APP",
 };
 
 export default function RootLayout({
