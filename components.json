@@ -6,19 +6,17 @@
   "tailwind": {
     "config": "",
     "css": "app/globals.css",
-    "baseColor": "zinc",
+    "baseColor": "neutral",
     "cssVariables": true,
     "prefix": ""
   },
   "iconLibrary": "lucide",
   "aliases": {
-    "components": "@/components",
-    "utils": "@/lib/utils",
-    "ui": "@/components/ui",
-    "lib": "@/lib",
-    "hooks": "@/hooks"
+    "components": "@/lib/utils/components",
+    "utils": "@/lib/utils/lib/utils",
+    "ui": "@/lib/utils/components/ui",
+    "lib": "@/lib/utils/lib",
+    "hooks": "@/lib/utils/hooks"
   },
-  "registries": {
-    "@magicui": "https://magicui.design/r/{name}.json"
-  }
+  "registries": {}
 }
